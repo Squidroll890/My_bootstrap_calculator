@@ -1,0 +1,34 @@
+body{
+   background-image: url("https://images.unsplash.com/photo-1519638399535-1b036603ac77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWV8ZW58MHx8MHx8&w=1000&q=80.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    margin-top: 100px;
+    background-color: #1f2120;
+}
+
+/* #addBtn:hover{
+    background-color: rgb(17, 17, 68);
+}
+
+#minusBtn:hover{
+    background-color: rgb(89, 81, 15);
+}
+
+#multiplyBtn:hover{
+    background-color: rgb(17, 68, 20);
+}
+
+#divideBtn:hover{
+    background-color: rgb(68, 17, 17);
+}*/
+
+#btnClear:hover{
+    background-color: rgb(70, 68, 68);
+} 
+
+#wi{
+    width: 107%;
+}

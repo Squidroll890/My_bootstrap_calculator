@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+   <link rel="icon" href="image/calcu.png" type="image/x-con">
+    <title>My Boostrap Calculator</title>
+
+</head>
+
+<body>
+<img src="" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <div class="card" >
+                    <div class="card-header text-center fw-bold text-bg-secondary p-3">  MY BOOTSTRAP CALCULATOR  </div>
+                    <div class="card-body">
+                       
+                        <div class="mb-3">
+                            <label class="cardnum1 fw-bold text-light p-3" for="firstnumber">Number 1 :</label>
+                            <br>
+                            <input type="text" class="form-control" id="txtNum1" placeholder="Enter Number 1 . . . " required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="cardnum2 fw-bold text-light p-3" for="secondnumber">Number 2 :</label>
+                            <br>
+                            <input type="text" class="form-control" id="txtNum2" placeholder="Enter Number 2 . . . " required>
+                        </div>
+                        <br>
+                     
+                        <div class="row">
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-primary fw-bold" onclick="addNumbers()">+</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-warning fw-bold" onclick="subtractNumbers()">-</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-success fw-bold" onclick="multiplyNumbers()">*</button>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-danger fw-bold" onclick="divideNumbers()">/</button>
+                                   
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="d-grid gap-2" id="wi">
+                                            <button type="button" class="btn btn-secondary fw-bold" id="btnClear" onclick="clearTextboxes()">Clear</button>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+<script type="text/javascript" src="js/script.js" ></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
